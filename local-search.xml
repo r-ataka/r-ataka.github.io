@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>テスト文章</title>
-    <link href="/2022/03/31/%E3%83%86%E3%82%B9%E3%83%88%E6%96%87%E7%AB%A0/"/>
-    <url>/2022/03/31/%E3%83%86%E3%82%B9%E3%83%88%E6%96%87%E7%AB%A0/</url>
+    <title>メモ</title>
+    <link href="/2022/03/31/%E3%83%A1%E3%83%A2/"/>
+    <url>/2022/03/31/%E3%83%A1%E3%83%A2/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h1 id="メモ"><a href="#メモ" class="headerlink" title="メモ"></a>メモ</h1><h2 id="hexoの使い方"><a href="#hexoの使い方" class="headerlink" title="hexoの使い方"></a>hexoの使い方</h2><h3 id="新規記事"><a href="#新規記事" class="headerlink" title="新規記事"></a>新規記事</h3><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></div></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># /_postに記事同名のフォルダーが作成され</span><br>hexo n <span class="hljs-string">&#x27;記事名&#x27;</span><br></code></pre></td></tr></table></figure><h3 id="ブログ作成"><a href="#ブログ作成" class="headerlink" title="ブログ作成"></a>ブログ作成</h3><p>静的ファイルを「public」フォルダに生成します</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo g<br></code></pre></td></tr></table></figure><h3 id="デプロイ"><a href="#デプロイ" class="headerlink" title="デプロイ"></a>デプロイ</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo d<br></code></pre></td></tr></table></figure><h3 id="ローカル実行"><a href="#ローカル実行" class="headerlink" title="ローカル実行"></a>ローカル実行</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo s<br></code></pre></td></tr></table></figure><h2 id="Markdownについて"><a href="#Markdownについて" class="headerlink" title="Markdownについて"></a>Markdownについて</h2><h3 id="画像挿入"><a href="#画像挿入" class="headerlink" title="画像挿入"></a>画像挿入</h3><p>1.htmlのimgタグ。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&#x27;IMG_5111.PNG&#x27;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&#x27;testImg&#x27;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&#x27;height:200px&#x27;</span>/&gt;</span><br></code></pre></td></tr></table></figure><img src='IMG_5111.PNG' alt='testImg' style='height:200px'/>2.　<figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="hljs-template-tag">&#123;% <span class="hljs-name">asset_img</span> IMG_5111.PNG %&#125;</span><br></code></pre></td></tr></table></figure><img src="/2022/03/31/%E3%83%A1%E3%83%A2/IMG_5111.PNG" class="">]]></content>
     
     
     
