@@ -17,15 +17,15 @@
   <meta name="keywords" content="">
   
     <meta property="og:type" content="website">
-<meta property="og:title" content="Ataka">
+<meta property="og:title" content="アタカのブログ">
 <meta property="og:url" content="http://ataka.github.io/index.html">
-<meta property="og:site_name" content="Ataka">
+<meta property="og:site_name" content="アタカのブログ">
 <meta property="og:locale" content="ja_JP">
 <meta property="article:author" content="ataka">
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>Ataka</title>
+  <title>アタカのブログ</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -47,7 +47,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"ataka.github.io","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"ataka.github.io","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":2},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -55,11 +55,11 @@
 
 
 <body>
-  <header style="height: 40vh;">
+  <header style="height: 80vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Ataka</strong>
+      <strong>アタカのブログ</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -151,7 +151,7 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('/img/bkg.png') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -163,6 +163,10 @@
             
           </div>
 
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
           
         </div>
       </div>
@@ -184,7 +188,72 @@
   <div class="row mx-auto index-card">
     
     
-    <article class="col-12 col-md-12 mx-auto index-info">
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/04/09/%E3%80%8C%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89Vue3%E3%82%92%E3%80%8DVue3-vite-ElementPlus%E3%81%A7%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/" target="_self">
+          <img src="/images/vue3seri.jpg" srcset="/img/loading.gif" lazyload alt="「ゼロからVue3を」Vue3+vite+ElementPlusで環境構築">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/09/%E3%80%8C%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89Vue3%E3%82%92%E3%80%8DVue3-vite-ElementPlus%E3%81%A7%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/" target="_self">
+          「ゼロからVue3を」Vue3+vite+ElementPlusで環境構築
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/04/09/%E3%80%8C%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89Vue3%E3%82%92%E3%80%8DVue3-vite-ElementPlus%E3%81%A7%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/" target="_self">
+          
+          概要今回はVue.jsのデフォルトバージョンになる「Vue3」を用いて、ゼロから一つの管理システムを作ると思います。UIフレームワークについて、Vue3バージョンのVuetifyはリリースされてないから、ElementPlusにします。Typescriptは「型宣言」なので、エラーやバグを未然に防止できるし、開発効率も上がります。viteの起動が非常に早い～ 環境Node.jsとnpmバージョン
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-09 11:05" pubdate>
+              2022-04-09
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89Vue3%E3%82%92/">ゼロからVue3を</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Vue-js/">Vue.js</a>
+            
+              <a href="/tags/vite/">vite</a>
+            
+              <a href="/tags/TypeScript/">TypeScript</a>
+            
+              <a href="/tags/ElementPlus/">ElementPlus</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/03/31/%E3%83%A1%E3%83%A2/" target="_self">
+          <img src="/images/memo_index.jpg" srcset="/img/loading.gif" lazyload alt="メモ">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
       <h1 class="index-header">
         
         <a href="/2022/03/31/%E3%83%A1%E3%83%A2/" target="_self">
@@ -195,7 +264,7 @@
       <p class="index-excerpt">
         <a href="/2022/03/31/%E3%83%A1%E3%83%A2/" target="_self">
           
-          メモhexoの使い方新規記事12# &#x2F;_postに記事同名のフォルダーが作成されhexo n &amp;#x27;記事名&amp;#x27;  ブログ作成静的ファイルを「public」フォルダに生成します 1hexo g  デプロイ1hexo d  ローカル実行1hexo s  Markdownについて画像挿入1.htmlのimgタグ。 1&lt;img src&#x3D;&amp;#x27;IMG_5111.PNG&amp;#x27;
+          hexoの使い方やMarkdownについてのメモ
         </a>
       </p>
 
